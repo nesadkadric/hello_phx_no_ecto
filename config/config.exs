@@ -19,7 +19,8 @@ config :hello_phx_no_ecto, HelloPhxNoEctoWeb.Endpoint,
     layout: false
   ],
   pubsub_server: HelloPhxNoEcto.PubSub,
-  live_view: [signing_salt: "FN3kMu2r"]
+  live_view: [signing_salt: "FN3kMu2r"],
+  server: true
 
 # Configures the mailer
 #
