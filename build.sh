@@ -13,3 +13,5 @@ mix phx.digest
 
 # Build the release and overwrite the existing release directory
 MIX_ENV=prod mix release --overwrite
+
+#_build/prod/rel/hello_phx_no_ecto/bin/hello_phx_no_ecto start
